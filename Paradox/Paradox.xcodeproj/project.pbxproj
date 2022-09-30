@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18514AF228E62F5B00D23F96 /* ParadoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514AF128E62F5B00D23F96 /* ParadoxApp.swift */; };
+		18514AF428E62F5B00D23F96 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514AF328E62F5B00D23F96 /* Display.swift */; };
+		18514AF628E62F5E00D23F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18514AF528E62F5E00D23F96 /* Assets.xcassets */; };
+		18514AF928E62F5E00D23F96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18514AF828E62F5E00D23F96 /* Preview Assets.xcassets */; };
+		18514B0028E6302500D23F96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514AFF28E6302500D23F96 /* ContentView.swift */; };
+		18514B0528E6328300D23F96 /* Chinese_Traditional_Pavilion.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 18514B0328E6328300D23F96 /* Chinese_Traditional_Pavilion.usdz */; };
+		18514B0728E64A6000D23F96 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514B0628E64A6000D23F96 /* CardView.swift */; };
+		18514B0928E653D100D23F96 /* CardManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514B0828E653D100D23F96 /* CardManger.swift */; };
+		18514B1728E67E4800D23F96 /* Monster_model.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 18514B0F28E67E4800D23F96 /* Monster_model.usdz */; };
+		18514B1F28E67FCF00D23F96 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514B1E28E67FCF00D23F96 /* RowView.swift */; };
+		18514B2128E68BCB00D23F96 /* info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514B2028E68BCB00D23F96 /* info.swift */; };
+		187E6BCC28E6CCF9002ABAE9 /* CardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E6BCB28E6CCF9002ABAE9 /* CardButton.swift */; };
+		187E6BCE28E7295A002ABAE9 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E6BCD28E7295A002ABAE9 /* ProductCard.swift */; };
+		187E6BD028E73FD0002ABAE9 /* Toy_Dragon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 187E6BCF28E73FD0002ABAE9 /* Toy_Dragon.usdz */; };
+		187E6BD528E7A104002ABAE9 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 187E6BD428E7A104002ABAE9 /* toy_robot_vintage.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		187E6BD128E78F27002ABAE9 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = file.bplist;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		18514AEE28E62F5B00D23F96 /* Paradox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paradox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18514AF128E62F5B00D23F96 /* ParadoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParadoxApp.swift; sourceTree = "<group>"; };
+		18514AF328E62F5B00D23F96 /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		18514AF528E62F5E00D23F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18514AF828E62F5E00D23F96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18514AFF28E6302500D23F96 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18514B0328E6328300D23F96 /* Chinese_Traditional_Pavilion.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Chinese_Traditional_Pavilion.usdz; sourceTree = "<group>"; };
+		18514B0628E64A6000D23F96 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		18514B0828E653D100D23F96 /* CardManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManger.swift; sourceTree = "<group>"; };
+		18514B0F28E67E4800D23F96 /* Monster_model.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Monster_model.usdz; sourceTree = "<group>"; };
+		18514B1E28E67FCF00D23F96 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		18514B2028E68BCB00D23F96 /* info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = info.swift; sourceTree = "<group>"; };
+		187E6BCB28E6CCF9002ABAE9 /* CardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardButton.swift; sourceTree = "<group>"; };
+		187E6BCD28E7295A002ABAE9 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		187E6BCF28E73FD0002ABAE9 /* Toy_Dragon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Toy_Dragon.usdz; path = ../../../VR/Toy_Dragon.usdz; sourceTree = "<group>"; };
+		187E6BD428E7A104002ABAE9 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_robot_vintage.usdz; path = ../../../VR/toy_robot_vintage.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18514AEB28E62F5B00D23F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18514AE528E62F5B00D23F96 = {
+			isa = PBXGroup;
+			children = (
+				18514AF028E62F5B00D23F96 /* Paradox */,
+				18514AEF28E62F5B00D23F96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18514AEF28E62F5B00D23F96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18514AEE28E62F5B00D23F96 /* Paradox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18514AF028E62F5B00D23F96 /* Paradox */ = {
+			isa = PBXGroup;
+			children = (
+				187E6BC928E69A23002ABAE9 /* lists */,
+				18514AF128E62F5B00D23F96 /* ParadoxApp.swift */,
+				18514AF328E62F5B00D23F96 /* Display.swift */,
+				18514AFF28E6302500D23F96 /* ContentView.swift */,
+				18514B0628E64A6000D23F96 /* CardView.swift */,
+				18514B1E28E67FCF00D23F96 /* RowView.swift */,
+				18514B0128E6328300D23F96 /* objects */,
+				18514AF728E62F5E00D23F96 /* Preview Content */,
+				18514AF528E62F5E00D23F96 /* Assets.xcassets */,
+			);
+			path = Paradox;
+			sourceTree = "<group>";
+		};
+		18514AF728E62F5E00D23F96 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18514AF828E62F5E00D23F96 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18514B0128E6328300D23F96 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				18514B0328E6328300D23F96 /* Chinese_Traditional_Pavilion.usdz */,
+				18514B0F28E67E4800D23F96 /* Monster_model.usdz */,
+				187E6BCF28E73FD0002ABAE9 /* Toy_Dragon.usdz */,
+				187E6BD428E7A104002ABAE9 /* toy_robot_vintage.usdz */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		187E6BC928E69A23002ABAE9 /* lists */ = {
+			isa = PBXGroup;
+			children = (
+				18514B0828E653D100D23F96 /* CardManger.swift */,
+				187E6BCD28E7295A002ABAE9 /* ProductCard.swift */,
+				18514B2028E68BCB00D23F96 /* info.swift */,
+				187E6BCB28E6CCF9002ABAE9 /* CardButton.swift */,
+			);
+			path = lists;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18514AED28E62F5B00D23F96 /* Paradox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18514AFC28E62F5E00D23F96 /* Build configuration list for PBXNativeTarget "Paradox" */;
+			buildPhases = (
+				18514AEA28E62F5B00D23F96 /* Sources */,
+				18514AEB28E62F5B00D23F96 /* Frameworks */,
+				18514AEC28E62F5B00D23F96 /* Resources */,
+			);
+			buildRules = (
+				187E6BD128E78F27002ABAE9 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Paradox;
+			productName = Paradox;
+			productReference = 18514AEE28E62F5B00D23F96 /* Paradox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18514AE628E62F5B00D23F96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					18514AED28E62F5B00D23F96 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 18514AE928E62F5B00D23F96 /* Build configuration list for PBXProject "Paradox" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18514AE528E62F5B00D23F96;
+			productRefGroup = 18514AEF28E62F5B00D23F96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18514AED28E62F5B00D23F96 /* Paradox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18514AEC28E62F5B00D23F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18514AF928E62F5E00D23F96 /* Preview Assets.xcassets in Resources */,
+				187E6BD028E73FD0002ABAE9 /* Toy_Dragon.usdz in Resources */,
+				187E6BD528E7A104002ABAE9 /* toy_robot_vintage.usdz in Resources */,
+				18514B0528E6328300D23F96 /* Chinese_Traditional_Pavilion.usdz in Resources */,
+				18514AF628E62F5E00D23F96 /* Assets.xcassets in Resources */,
+				18514B1728E67E4800D23F96 /* Monster_model.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18514AEA28E62F5B00D23F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18514B0028E6302500D23F96 /* ContentView.swift in Sources */,
+				187E6BCC28E6CCF9002ABAE9 /* CardButton.swift in Sources */,
+				18514B1F28E67FCF00D23F96 /* RowView.swift in Sources */,
+				18514AF428E62F5B00D23F96 /* Display.swift in Sources */,
+				18514B0728E64A6000D23F96 /* CardView.swift in Sources */,
+				187E6BCE28E7295A002ABAE9 /* ProductCard.swift in Sources */,
+				18514AF228E62F5B00D23F96 /* ParadoxApp.swift in Sources */,
+				18514B0928E653D100D23F96 /* CardManger.swift in Sources */,
+				18514B2128E68BCB00D23F96 /* info.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18514AFA28E62F5E00D23F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18514AFB28E62F5E00D23F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18514AFD28E62F5E00D23F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Paradox/Preview Content\"";
+				DEVELOPMENT_TEAM = DGFP748K9P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hello.Paradox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18514AFE28E62F5E00D23F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Paradox/Preview Content\"";
+				DEVELOPMENT_TEAM = DGFP748K9P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hello.Paradox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18514AE928E62F5B00D23F96 /* Build configuration list for PBXProject "Paradox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18514AFA28E62F5E00D23F96 /* Debug */,
+				18514AFB28E62F5E00D23F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18514AFC28E62F5E00D23F96 /* Build configuration list for PBXNativeTarget "Paradox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18514AFD28E62F5E00D23F96 /* Debug */,
+				18514AFE28E62F5E00D23F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18514AE628E62F5B00D23F96 /* Project object */;
+}
