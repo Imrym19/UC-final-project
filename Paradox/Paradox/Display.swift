@@ -16,7 +16,7 @@ struct Display: View {
     var body: some View {
         
         
-        NavigationView {
+       
             ScrollView {
                 LazyVGrid (columns: columing){
                     
@@ -41,7 +41,7 @@ struct Display: View {
                 }
             }
             .navigationViewStyle(StackNavigationViewStyle())
-        }
+        
     }
 }
 

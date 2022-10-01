@@ -113,24 +113,35 @@ struct ContentView: View {
             VStack ( alignment: .leading, spacing: 12) {
             
                 
-                Text(ModelsList[index].details)
+                Text ("Number: \(ModelsList[index].details) ")
+                    .font(.caption)
                     .fontWeight(.semibold)
-
-                HStack {
-                    Text("price:      \(ModelsList[index].ETH) ETH")
-                        .fontWeight(.semibold)
                     
-                    Image ("eth")
-                        .resizable()
-                        .frame(width: 13, height: 20)
-                        .scaledToFit()
-                }
+                    
                 
                 
-                
-                Text("value:      \(ModelsList[index].value) KWD")
+                Text("Details: \(ModelsList[index].info) ")
+                    .font(.caption)
                     .fontWeight(.semibold)
-                    .foregroundColor(.gray)
+                
+                
+                
+                
+               // HStack {
+                   // Text("price:      \(ModelsList[index].ETH) ETH")
+                //        .fontWeight(.semibold)
+                    
+               //     Image ("eth")
+             //           .resizable()
+             //           .frame(width: 13, height: 20)
+             //           .scaledToFit()
+            //    }
+                
+                
+                
+             //   Text("value:      \(ModelsList[index].value) KWD")
+            //        .fontWeight(.semibold)
+             //       .foregroundColor(.gray)
                     
                 
                 Spacer()
