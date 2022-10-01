@@ -19,15 +19,24 @@
 
 > Fill out project information in English ⬇️
 ### Student Name
-
+Maryam Abdulaziz Gumaan
 
 ### Project Name
+Paradox
 
 # Idea
-Problem and solutions if found 
+Its a marketplace for 3D digital art as NFTs 
+Idea: paradox specializes in displaying 3D digital in a dynamic and interactive way making the users get an incredible experience  
+
+1- art enthusiast : enjoying this unique interactive experience while staying updated with the market and their favorite artists. 
+2- NFT collectors : ease up the search and buying process by getting the value of NFTs in their local currency
+3- NFT artists : Can display their art in a way that doesn't take away from it and getting their pieces recognized and sold.
 
 
 # Future Work 
 
-
+- connect the digital art with Ethereum blockchain
+- Login page and secure users info
+- Ethereum wallet to buy and sell 
+- enabling artists to upload their NFTs
 
