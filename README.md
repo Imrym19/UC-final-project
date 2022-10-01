@@ -25,8 +25,8 @@ Maryam Abdulaziz Gumaan
 Paradox
 
 # Idea
-Its a marketplace for 3D digital art as NFTs 
-Idea: paradox specializes in displaying 3D digital in a dynamic and interactive way making the users get an incredible experience  
+- Its a marketplace for 3D digital art as NFTs 
+- Idea: paradox specializes in displaying 3D digital in a dynamic and interactive way making the users get an incredible experience  
 
 - art enthusiast : enjoying this unique interactive experience while staying updated with the market and their favorite artists. 
 - NFT collectors : ease up the search and buying process by getting the value of NFTs in their local currency
