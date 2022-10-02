@@ -36,7 +36,6 @@ Paradox
 # Future Work 
 
 - connect the digital art with Ethereum blockchain
-- Login page and secure users info
 - Ethereum wallet to buy and sell 
 - enabling artists to upload their NFTs
 
